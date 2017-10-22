@@ -6,5 +6,5 @@ curl ftp://$FTP_SERVER/$DATE.tar.gz -u $FTP_USER:$FTP_PASSWORD -o /tmp/$DATE.tar
 
 cd /
 tar -xvf /tmp/$DATE.tar.gz
-mongorestore -h $HOST /var/backups/$DATE
+mongorestore --drop -h $HOST /var/backups/$DATE
 
