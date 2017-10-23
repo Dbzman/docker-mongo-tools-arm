@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE=`date +"%m-%d-%y"`
+DATE=`date +"%y-%m-%d"`
 
 cd /tmp
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE=`date +"%m-%d-%y"`
+DATE=`date +"%y-%m-%d"`
 
 curl ftp://$FTP_SERVER/$DATE.tar.gz -u $FTP_USER:$FTP_PASSWORD -o /tmp/$DATE.tar.gz
 
